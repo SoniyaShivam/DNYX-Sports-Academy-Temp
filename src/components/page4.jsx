@@ -27,7 +27,7 @@ const CoachCard = ({ sport, name, description, image }) => {
   );
 };
 
-const GymAcademy = () => {
+const Page4 = () => {
   const coaches = [
     {
       sport: "Head Coach",
@@ -87,4 +87,4 @@ const GymAcademy = () => {
   );
 };
 
-export default GymAcademy;
+export default Page4;

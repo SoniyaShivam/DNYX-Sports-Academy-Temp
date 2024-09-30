@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Testimonials from './Testimonials';
-import { Link } from 'react-router-dom';
+
 
 function Page1() {
     
@@ -21,13 +21,13 @@ function Page1() {
       </section>
       <Testimonials />
       <center className='pb-5'>
-        <button 
+        {/* <button 
           
           className='flex text-white justify-center h-[50px] w-[100px] items-center rounded-lg bg-blue-950'
         >
             
           <Link to='/page2'>Click</Link>
-        </button>
+        </button> */}
       </center>
     </div>
   );
