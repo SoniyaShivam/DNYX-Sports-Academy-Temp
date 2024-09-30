@@ -60,7 +60,7 @@ const Page4 = () => {
       <Navbar />
       <section className="mt-12 bg-gray-200 py-10 px-5">
         <h2 className="text-4xl font-bold text-center mb-10">Our Coaches</h2>
-        <div className="grid grid-cols-4 h-[900px] gap-8">
+        <div className="grid grid-cols-4 h-[900px] text-3xl gap-8">
           {coaches.map((coach, index) => (
             <CoachCard
               key={index}
