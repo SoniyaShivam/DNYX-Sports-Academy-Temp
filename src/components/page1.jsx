@@ -1,14 +1,10 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Testimonials from './Testimonials';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Page1() {
-    const navigate = useNavigate(); // Using useNavigate from React Router
-
-    const navigateToPage2 = () => {
-      navigate('/page2'); // Navigate to Page 2 using React Router
-    };
+    
   
 
   return (
@@ -26,10 +22,11 @@ function Page1() {
       <Testimonials />
       <center className='pb-5'>
         <button 
-          onClick={navigateToPage2} 
+          
           className='flex text-white justify-center h-[50px] w-[100px] items-center rounded-lg bg-blue-950'
         >
-          Click
+            
+          <Link to='/page2'>Click</Link>
         </button>
       </center>
     </div>

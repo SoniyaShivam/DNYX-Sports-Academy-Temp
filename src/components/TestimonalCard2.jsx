@@ -5,7 +5,7 @@ function TestimonialCard2({ testimonial, image }) {
   const imageUrl = image;
   return (
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-          <div className="h-48 bg-cover bg-center" style={{ backgroundImage: `url(${imageUrl})` }}>
+          <div className="h-50 bg-cover bg-center" style={{ backgroundImage: `url(${imageUrl})` }}>
             <div className="bg-white bg-opacity-75 p-2 text-sm font-semibold absolute top-4 left-4 rounded">
               {testimonial.age}
             </div>

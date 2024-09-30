@@ -46,9 +46,9 @@ const testimonials = [
 
 function Testimonials2() {
   return (
-    <div className="max-w-6xl mx-auto py-12 px-6">
+    <div className=" mx-auto py-12 px-[300px]">
       <h2 className="text-4xl font-bold text-center mb-10">What Our Clients Say</h2>
-      <div className="grid grid-rows md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-4 h-[700px] w-[2500px] gap-8">
         {testimonials.map((testimonial, index) => (
           <TestimonialCard2 key={index} 
           testimonial={testimonial}  // Passing the individual testimonial object
