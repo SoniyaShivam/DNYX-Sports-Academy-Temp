@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Page1 from './components/page1'; // lowercase 'page1'
 import Page2 from './components/page2'; // lowercase 'page2'
 import Page3 from './components/page3'; // assuming this one is correct
-import Page4 from './components/page4'; // lowercase 'page4'
+import Page4 from './components/page4';
+import Page5 from './components/page5' // lowercase 'page4'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/page1" element={<Page1 />} />
         <Route path="/page2" element={<Page2 />} />
         <Route path="/page4" element={<Page4 />} />
+        <Route path="/page5" element={<Page5 />} />
       </Routes>
     </Router>
   );

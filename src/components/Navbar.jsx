@@ -20,7 +20,7 @@ function Navbar() {
           </ul>
           
           <ul className="nav text-3xl mb-2 justify-content-center">
-            <li><Link to="/contact" className="nav-link px-2 text-white">Contact Us</Link></li>
+            <li><Link to="/page5" className="nav-link px-2 text-white">Contact Us</Link></li>
           </ul>
         </div>
       </div>
