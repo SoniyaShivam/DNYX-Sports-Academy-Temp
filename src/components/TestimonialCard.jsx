@@ -17,7 +17,7 @@ function TestimonialCard({ testimonial, imageMap }) {
       {/* Trainer details section */}
       <div className="flex-1 text-center h-full space-y-52 border-gray-500 p-15 ">
         <p className="font-semibold text-gray-100 text-2xl">{trainer.name}</p>
-        <p className="text-sm text-xl text-gray-400">{trainer.role}</p>
+        <p className="text-xl text-gray-400">{trainer.role}</p>
         <p className="text-3xl font-bold text-green-400 mt-2">{trainer.improvement} Improvement</p>
       </div>
       

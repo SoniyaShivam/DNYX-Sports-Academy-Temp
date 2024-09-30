@@ -1,22 +1,16 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import Testimonials from './components/Testimonials';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Page1 from './components/page1';
+import Page2 from './components/page2';
+
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <main className='text-slate-500 text-2xl text-center p-5'>
-        What Our Students Say
-      </main>
-      <section className='font-suse text-9xl text-center font-bold pt-3'>
-        Hear From Our Thriving 
-      </section>
-      <section className='font-suse text-9xl text-center font-bold p-5'>
-        Tennis Community
-      </section>
-      <Testimonials/>
-
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Page1 />} />
+        <Route path="/page2" element={<Page2 />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -17,7 +17,7 @@ const testimonials = [
       name: "Michael T.",
       role: "Trainer",
       improvement: "80%",
-      img: "trainer1"
+      img: "trainer1",
     }
   },
   {
@@ -27,7 +27,7 @@ const testimonials = [
       name: "David K.",
       role: "Trainer",
       improvement: "60%",
-      img: "trainer2"
+      img: "trainer2",
     }
   }
 ];
