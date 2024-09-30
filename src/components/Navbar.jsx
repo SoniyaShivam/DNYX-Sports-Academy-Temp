@@ -1,5 +1,6 @@
 import React from 'react';
-
+import page2 from './page2'
+import page1 from './page1'
 function Navbar() {
   return (
     <header className="p-10 text-bg-dark ">
@@ -14,8 +15,8 @@ function Navbar() {
 
           <ul className="nav col-12 text-3xl col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
             <li><a href="#" className="nav-link px-2 text-white">Home</a></li>
-            <li><a href="#" className="nav-link px-2 text-white">About Us</a></li>
-            <li><a href="#" className="nav-link px-2 text-white">Programs</a></li>
+            <li><a href="/" className="nav-link px-2 text-white">About Us</a></li>
+            <li><a href="page2" className="nav-link px-2 text-white">Programs</a></li>
             <li><a href="#" className="nav-link px-2 text-white">Coaches</a></li>
           </ul>
           <ul className='nav text-3xl mb-2 justify-content-center'>
