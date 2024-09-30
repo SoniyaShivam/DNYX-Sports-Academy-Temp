@@ -27,7 +27,7 @@ const Page3 = () => {
         <h1 className="font-bold text-9xl">Your Gym Journey Awaits</h1>
         <p className="mt-4 text-5xl">Rise to the top with Ace Gym Academy</p>
         
-        <div className="mt-6">
+        <div className="mt-28">
           <button 
             onClick={toggleContact}
             className="bg-white text-black px-6 py-3 rounded-full mr-4 text-3xl hover:bg-gray-200 transition ease-in-out"
