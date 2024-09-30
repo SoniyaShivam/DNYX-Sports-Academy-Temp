@@ -4,7 +4,8 @@ import Navbar from './Navbar';
 
 const GymAcademy = () => {
   return (
-    <main>    <Navbar/>
+    <main>    
+    <Navbar/>
       <div className="max-w-5xl mx-auto p-4">
         <section className="relative bg-white shadow-lg rounded-xl overflow-hidden">
           <div className="relative">
@@ -46,8 +47,6 @@ const GymAcademy = () => {
             </div>
           </div>
         </section>
-
-        {/* Footer */}
         <footer className="mt-12 text-center text-gray-600">
           <p>© 2024 Ace Gym Academy. All Rights Reserved.</p>
         </footer>
