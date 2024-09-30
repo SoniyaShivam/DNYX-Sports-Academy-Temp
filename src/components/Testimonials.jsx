@@ -34,7 +34,7 @@ const testimonials = [
 
 function Testimonials() {
   return (
-    <div className="flex md:flex-col m-10 gap-8">
+    <div className="flex md:flex-col m-10 gap-8 ">
       {testimonials.map((testimonial, index) => (
         <TestimonialCard key={index} testimonial={testimonial} imageMap={imageMap}/>
       ))}

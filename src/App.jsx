@@ -9,6 +9,7 @@ function App() {
   return (
     <Router>
       <Routes>
+      <Route path="/" element={<Page3 />} />
         <Route path="/page3" element={<Page3 />} />
         <Route path="/page1" element={<Page1 />} />
         <Route path="/page2" element={<Page2 />} />
