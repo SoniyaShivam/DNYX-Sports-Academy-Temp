@@ -47,7 +47,7 @@ const testimonials = [
 function Testimonials2() {
   return (
     <div className=" mx-auto py-12 px-[300px]">
-      <h2 className="text-4xl font-bold text-center mb-10">What Our Clients Say</h2>
+      
       <div className="grid grid-cols-4 h-[700px] w-[2500px] gap-20">
         {testimonials.map((testimonial, index) => (
           <TestimonialCard2 key={index} 

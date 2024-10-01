@@ -34,6 +34,7 @@ function Page2() {
       {/* Heading section */}
       <section className="font-suse text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-center font-bold pt-3">
         Comprehensive Tennis Training For Everyone
+        <h2 className="text-4xl font-bold pt-4 text-center mb-10">What Our Clients Say</h2>
       </section>
 
       {/* Scrollable Testimonials Section */}
