@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 function Navbar() {
   return (
-    <header className="p-10 text-bg-dark ">
+    <header className="p-10 static text-bg-dark ">
       <div className="container">
         <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <Link to="/" className="d-flex pr-5 text-3xl align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
