@@ -98,7 +98,7 @@ const CoachCard = ({ sport, name, description, image }) => {
       <img
         src={image}
         alt={name}
-        className="w-full h-40 md:h-50 object-cover rounded-lg mb-4"
+        className="w-full h-50 md:h-50 object-cover rounded-lg mb-4"
       />
       <h3 className="text-xl font-bold mb-2">{name}</h3>
       <p className="text-gray-600 text-sm md:text-base">

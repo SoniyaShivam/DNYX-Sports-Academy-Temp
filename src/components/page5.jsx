@@ -94,7 +94,7 @@ import Navbar from "./Navbar";
 const Page5 = () => {
   return (
     <div
-      className="relative bg-cover bg-center"
+      className="relative bg-cover  bg-center  "
       style={{
         backgroundImage: `url(${contact_back})`,
       }}
